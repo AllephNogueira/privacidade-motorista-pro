@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade — Motorista Pro</title>
+    <style>
+        :root { color-scheme: light dark; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px 20px 48px;
+            color: #1a1a1a;
+            background: #fff;
+        }
+        h1, h2 { line-height: 1.25; }
+        h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+        .meta { color: #555; font-size: 0.95rem; margin-bottom: 2rem; }
+        h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+        ul { padding-left: 1.25rem; }
+        a { color: #06c167; }
+        footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #e8e8e8; font-size: 0.9rem; color: #666; }
+        @media (prefers-color-scheme: dark) {
+            body { background: #111; color: #f2f2f2; }
+            .meta, footer { color: #aaa; }
+            footer { border-color: #333; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidade</h1>
+    <p class="meta">
+        <strong>Motorista Pro</strong> · Pacote: <code>com.motoristapro</code><br>
+        Última atualização: 8 de junho de 2026
+    </p>
+
+    <p>
+        Esta Política de Privacidade descreve como o aplicativo <strong>Motorista Pro</strong>
+        (“App”, “nós”) trata informações quando você utiliza nossas funcionalidades de copiloto
+        para motoristas de aplicativo (Uber Motorista, 99, InDrive e similares).
+    </p>
+    <p>
+        O Motorista Pro <strong>não é afiliado</strong> à Uber, 99, InDrive ou outras plataformas
+        de transporte. Somos uma ferramenta independente instalada no seu dispositivo.
+    </p>
+
+    <h2>1. Controlador dos dados</h2>
+    <p>
+        Responsável pelo tratamento dos dados descritos nesta política:<br>
+        <strong>Desenvolvedor do Motorista Pro</strong><br>
+        E-mail para privacidade e LGPD:
+        <a href="mailto:privacidade@motoristapro.app">privacidade@motoristapro.app</a>
+        <!-- Substitua o e-mail acima pelo seu contato real antes de publicar na Play Store -->
+    </p>
+
+    <h2>2. Resumo</h2>
+    <ul>
+        <li>Não exigimos cadastro, login ou criação de conta.</li>
+        <li>Não vendemos seus dados pessoais.</li>
+        <li>Não mantemos servidor próprio que armazene suas corridas — os dados ficam no seu celular.</li>
+        <li>Leitura de tela e notificações ocorre <strong>somente no dispositivo</strong> para calcular R$/km e exibir o card.</li>
+        <li>Alguns dados podem ser enviados ao <strong>Google Maps</strong> apenas quando você usa a função de mapas/rotas.</li>
+    </ul>
+
+    <h2>3. Dados que o App pode processar</h2>
+    <p>Conforme as permissões que você conceder e os recursos que utilizar:</p>
+    <ul>
+        <li><strong>Dados de ofertas de corrida</strong> (valor, distância, tempo, nota do passageiro, endereços ou trechos de texto lidos na tela ou em notificações dos apps motorista).</li>
+        <li><strong>Histórico de corridas analisadas</strong> salvo localmente no aparelho (banco de dados interno).</li>
+        <li><strong>Configurações do app</strong> (limites do semáforo, tema do card, posição do botão flutuante, preferências de copiloto).</li>
+        <li><strong>Localização aproximada ou precisa</strong>, somente se você usar compartilhamento de localização na tela de Segurança ou informar coordenadas na tela de Mapas.</li>
+        <li><strong>Fotos e vídeos</strong>, somente se você iniciar gravação pela câmera na tela de Segurança (armazenados no dispositivo).</li>
+        <li><strong>Capturas de tela / prints</strong> gerados por você, salvos na galeria do aparelho com marca d'água opcional do app.</li>
+        <li><strong>Conteúdo exibido na tela</strong> de apps de corrida, acessado via Serviço de Acessibilidade, exclusivamente para detectar ofertas e calcular métricas.</li>
+        <li><strong>Notificações</strong> de apps motorista, quando você ativa o acesso a notificações do Android.</li>
+    </ul>
+
+    <h2>4. Como coletamos e usamos</h2>
+    <h3>4.1 Serviço de Acessibilidade (obrigatório para o copiloto)</h3>
+    <p>
+        Com sua autorização explícita nas Configurações do Android, o App lê elementos de texto
+        visíveis na tela dos aplicativos motorista para identificar ofertas de corrida e extrair
+        valores necessários ao cálculo de lucratividade. Esse processamento é feito
+        <strong>localmente</strong>. Não enviamos o conteúdo integral da tela para nossos servidores
+        (não possuímos servidor de coleta desse tipo).
+    </p>
+    <h3>4.2 Acesso a notificações</h3>
+    <p>
+        Com sua autorização, o App pode ler notificações dos apps motorista para complementar a
+        detecção de corridas. O texto é processado no dispositivo.
+    </p>
+    <h3>4.3 Exibir sobre outros apps (overlay)</h3>
+    <p>
+        Permite mostrar o card flutuante de R$/km e semáforo sobre a tela do app motorista.
+        Não implica envio de dados a terceiros.
+    </p>
+    <h3>4.4 Armazenamento local</h3>
+    <p>
+        Configurações (DataStore) e histórico de corridas (Room/SQLite) permanecem no seu aparelho
+        até você desinstalar o App ou apagar os dados do app nas configurações do Android.
+    </p>
+    <h3>4.5 Google Maps / Directions API</h3>
+    <p>
+        Se você usar a tela de Mapas e houver chave de API configurada, coordenadas de origem e
+        destino informadas por você podem ser enviadas ao Google para estimar distância e tempo.
+        Consulte a
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>.
+    </p>
+    <h3>4.6 Compartilhamento iniciado por você</h3>
+    <p>
+        Ao compartilhar um print, localização ou vídeo, você escolhe o app destino (WhatsApp, etc.).
+        Não controlamos o tratamento feito por esses serviços.
+    </p>
+
+    <h2>5. Finalidades</h2>
+    <ul>
+        <li>Calcular e exibir R$/km, R$/hora, R$/min e semáforo de lucratividade.</li>
+        <li>Manter histórico e relatórios no dispositivo.</li>
+        <li>Operar botão flutuante, card e copiloto.</li>
+        <li>Recursos de segurança (emergência, gravação, compartilhar localização), se utilizados.</li>
+        <li>Melhorar estabilidade do App (sem identificação comercial de perfil, na versão atual).</li>
+    </ul>
+
+    <h2>6. Base legal (LGPD)</h2>
+    <p>Tratamos dados com fundamento em:</p>
+    <ul>
+        <li><strong>Consentimento</strong> — permissões sensíveis (acessibilidade, notificações, câmera, localização, etc.).</li>
+        <li><strong>Execução de funcionalidades</strong> solicitadas por você.</li>
+        <li><strong>Legítimo interesse</strong> — operação técnica local do App, respeitando seus direitos.</li>
+    </ul>
+
+    <h2>7. Compartilhamento com terceiros</h2>
+    <p>Podemos compartilhar dados apenas nas situações abaixo:</p>
+    <ul>
+        <li><strong>Google LLC</strong> — Maps/Directions API, quando você usa mapas com API ativa.</li>
+        <li><strong>Apps que você escolher</strong> — ao compartilhar prints, localização ou vídeos.</li>
+        <li><strong>Obrigação legal</strong> — se exigido por lei ou ordem judicial.</li>
+    </ul>
+    <p>Não vendemos nem alugamos seus dados pessoais.</p>
+
+    <h2>8. Retenção</h2>
+    <p>
+        Dados locais são mantidos enquanto o App estiver instalado ou até você limpar dados do app.
+        Você pode excluir corridas individualmente no histórico. Ao desinstalar, os dados internos
+        do App são removidos do dispositivo (salvo backups do sistema que você tenha ativado).
+    </p>
+
+    <h2>9. Segurança</h2>
+    <p>
+        Adotamos medidas técnicas razoáveis para proteger dados no dispositivo. Nenhum método é
+        100% seguro. Recomendamos manter o sistema Android atualizado e não conceder permissões
+        a apps desconhecidos.
+    </p>
+
+    <h2>10. Crianças e adolescentes</h2>
+    <p>
+        O Motorista Pro é destinado a motoristas profissionais. Não é direcionado a menores de 18 anos
+        e não coletamos intencionalmente dados de crianças.
+    </p>
+
+    <h2>11. Seus direitos (LGPD)</h2>
+    <p>Você pode, mediante solicitação ao e-mail de contato:</p>
+    <ul>
+        <li>Confirmar se tratamos seus dados;</li>
+        <li>Acessar, corrigir ou solicitar eliminação de dados que estejam sob nosso controle;</li>
+        <li>Revogar consentimentos (desativando permissões nas Configurações do Android);</li>
+        <li>Solicitar informações sobre compartilhamentos.</li>
+    </ul>
+    <p>
+        Para dados armazenados apenas no aparelho, você também pode apagá-los diretamente no App
+        (histórico) ou em Configurações → Apps → Motorista Pro → Armazenamento.
+    </p>
+
+    <h2>12. Transferência internacional</h2>
+    <p>
+        O uso da API do Google pode implicar processamento fora do Brasil, conforme políticas do Google.
+    </p>
+
+    <h2>13. Alterações desta política</h2>
+    <p>
+        Podemos atualizar este documento. A data no topo indica a versão vigente. Mudanças relevantes
+        podem ser comunicadas no App ou na página da Play Store.
+    </p>
+
+    <h2>14. Contato</h2>
+    <p>
+        Dúvidas sobre privacidade ou exercício de direitos:<br>
+        <a href="mailto:privacidade@motoristapro.app">privacidade@motoristapro.app</a>
+    </p>
+
+    <footer>
+        Motorista Pro · com.motoristapro · Não afiliado à Uber, 99 ou InDrive.
+    </footer>
+</body>
+</html>
